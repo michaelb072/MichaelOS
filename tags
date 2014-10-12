@@ -1,0 +1,177 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_OUR_OBJS	kernel/Makefile	/^ALL_OUR_OBJS:=\\$/;"	m
+ARCHDIR	kernel/Makefile	/^ARCHDIR:=arch\/$(HOSTARCH)$/;"	m
+ARCHDIR	libc/Makefile	/^ARCHDIR:=arch\/$(HOSTARCH)$/;"	m
+BEGIN_PM	bootloader/pm_switch.asm	/^BEGIN_PM:$/;"	l
+BINARIES	libc/Makefile	/^BINARIES=libc.a libg.a libk.a$/;"	m
+BOOTDIR	kernel/Makefile	/^  BOOTDIR?=$(EXEC_PREFIX)\/boot$/;"	m
+CFLAGS	kernel/Makefile	/^ CFLAGS?=-O2 -g$/;"	m
+CFLAGS	kernel/Makefile	/^CFLAGS:=$(CFLAGS) $(KERNEL_ARCH_CFLAGS)$/;"	m
+CFLAGS	kernel/Makefile	/^CFLAGS:=$(CFLAGS) -ffreestanding -fbuiltin -Wall -Wextra$/;"	m
+CFLAGS	libc/Makefile	/^CFLAGS:=$(CFLAGS) $(ARCH_CFLAGS)$/;"	m
+CFLAGS	libc/Makefile	/^CFLAGS:=$(CFLAGS) -Wall -Wextra$/;"	m
+CFLAGS	libc/Makefile	/^CFLAGS?=-O2 -g$/;"	m
+CODE_SEG	bootloader/gdt.asm	/^CODE_SEG equ gdt_code - gdt_start$/;"	d
+COLOR_BLACK	kernel/include/kernel/vga.h	/^    COLOR_BLACK = 0,$/;"	e	enum:vga_color
+COLOR_BLACK	sysroot/usr/include/kernel/vga.h	/^    COLOR_BLACK = 0,$/;"	e	enum:vga_color
+COLOR_BLUE	kernel/include/kernel/vga.h	/^    COLOR_BLUE = 1,$/;"	e	enum:vga_color
+COLOR_BLUE	sysroot/usr/include/kernel/vga.h	/^    COLOR_BLUE = 1,$/;"	e	enum:vga_color
+COLOR_BROWN	kernel/include/kernel/vga.h	/^    COLOR_BROWN = 6,$/;"	e	enum:vga_color
+COLOR_BROWN	sysroot/usr/include/kernel/vga.h	/^    COLOR_BROWN = 6,$/;"	e	enum:vga_color
+COLOR_CYAN	kernel/include/kernel/vga.h	/^    COLOR_CYAN = 3,$/;"	e	enum:vga_color
+COLOR_CYAN	sysroot/usr/include/kernel/vga.h	/^    COLOR_CYAN = 3,$/;"	e	enum:vga_color
+COLOR_DARK_GREY	kernel/include/kernel/vga.h	/^    COLOR_DARK_GREY = 8,$/;"	e	enum:vga_color
+COLOR_DARK_GREY	sysroot/usr/include/kernel/vga.h	/^    COLOR_DARK_GREY = 8,$/;"	e	enum:vga_color
+COLOR_GREEN	kernel/include/kernel/vga.h	/^    COLOR_GREEN = 2,$/;"	e	enum:vga_color
+COLOR_GREEN	sysroot/usr/include/kernel/vga.h	/^    COLOR_GREEN = 2,$/;"	e	enum:vga_color
+COLOR_LIGHT_BLUE	kernel/include/kernel/vga.h	/^    COLOR_LIGHT_BLUE = 9,$/;"	e	enum:vga_color
+COLOR_LIGHT_BLUE	sysroot/usr/include/kernel/vga.h	/^    COLOR_LIGHT_BLUE = 9,$/;"	e	enum:vga_color
+COLOR_LIGHT_BROWN	kernel/include/kernel/vga.h	/^    COLOR_LIGHT_BROWN = 14,$/;"	e	enum:vga_color
+COLOR_LIGHT_BROWN	sysroot/usr/include/kernel/vga.h	/^    COLOR_LIGHT_BROWN = 14,$/;"	e	enum:vga_color
+COLOR_LIGHT_CYAN	kernel/include/kernel/vga.h	/^    COLOR_LIGHT_CYAN = 11,$/;"	e	enum:vga_color
+COLOR_LIGHT_CYAN	sysroot/usr/include/kernel/vga.h	/^    COLOR_LIGHT_CYAN = 11,$/;"	e	enum:vga_color
+COLOR_LIGHT_GREEN	kernel/include/kernel/vga.h	/^    COLOR_LIGHT_GREEN = 10,$/;"	e	enum:vga_color
+COLOR_LIGHT_GREEN	sysroot/usr/include/kernel/vga.h	/^    COLOR_LIGHT_GREEN = 10,$/;"	e	enum:vga_color
+COLOR_LIGHT_GREY	kernel/include/kernel/vga.h	/^    COLOR_LIGHT_GREY = 7,$/;"	e	enum:vga_color
+COLOR_LIGHT_GREY	sysroot/usr/include/kernel/vga.h	/^    COLOR_LIGHT_GREY = 7,$/;"	e	enum:vga_color
+COLOR_LIGHT_MAGENTA	kernel/include/kernel/vga.h	/^    COLOR_LIGHT_MAGENTA = 13,$/;"	e	enum:vga_color
+COLOR_LIGHT_MAGENTA	sysroot/usr/include/kernel/vga.h	/^    COLOR_LIGHT_MAGENTA = 13,$/;"	e	enum:vga_color
+COLOR_LIGHT_RED	kernel/include/kernel/vga.h	/^    COLOR_LIGHT_RED = 12,$/;"	e	enum:vga_color
+COLOR_LIGHT_RED	sysroot/usr/include/kernel/vga.h	/^    COLOR_LIGHT_RED = 12,$/;"	e	enum:vga_color
+COLOR_MAGENTA	kernel/include/kernel/vga.h	/^    COLOR_MAGENTA = 5,$/;"	e	enum:vga_color
+COLOR_MAGENTA	sysroot/usr/include/kernel/vga.h	/^    COLOR_MAGENTA = 5,$/;"	e	enum:vga_color
+COLOR_RED	kernel/include/kernel/vga.h	/^    COLOR_RED = 4,$/;"	e	enum:vga_color
+COLOR_RED	sysroot/usr/include/kernel/vga.h	/^    COLOR_RED = 4,$/;"	e	enum:vga_color
+COLOR_WHITE	kernel/include/kernel/vga.h	/^    COLOR_WHITE = 15,$/;"	e	enum:vga_color
+COLOR_WHITE	sysroot/usr/include/kernel/vga.h	/^    COLOR_WHITE = 15,$/;"	e	enum:vga_color
+CPFLAGS	kernel/Makefile	/^CPFLAGS:=$(CPPFLAGS) $(KERNEL_ARCH_CPPFLAGS)$/;"	m
+CPFLAGS	libc/Makefile	/^CPFLAGS:=$(CPPFLAGS) $(ARCH_CPPFLAGS)$/;"	m
+CPPFLAGS	kernel/Makefile	/^ CPPFLAGS?=-O2 -g$/;"	m
+CPPFLAGS	kernel/Makefile	/^CPPFLAGS:=$(CPPFLAGS) -D__is_michaelos_kernel -Iinclude$/;"	m
+CPPFLAGS	libc/Makefile	/^CPPFLAGS:=$(CPPFLAGS) -D__is_michaelos_libc -Iinclude$/;"	m
+CPPFLAGS	libc/Makefile	/^CPPFLAGS?=$/;"	m
+CRTBEGIN_OBJ	kernel/Makefile	/^CRTBEGIN_OBJ:=$(shell $(CC) $(CFLAGS) $(LDFLAGS) -print-file-name=crtbegin.o)$/;"	m
+CRTEND_OBJ	kernel/Makefile	/^CRTEND_OBJ:=$(shell $(CC) $(CFLAGS) $(LDFLAGS) -print-file-name=crtend.o)$/;"	m
+CRTI_OBJ	kernel/Makefile	/^CRTI_OBJ:=$(ARCHDIR)\/crti.o$/;"	m
+CRTN_OBJ	kernel/Makefile	/^CRTN_OBJ:=$(ARCHDIR)\/crtn.o$/;"	m
+DATA_SEG	bootloader/gdt.asm	/^DATA_SEG equ gdt_data - gdt_start$/;"	d
+DESTDIR	kernel/Makefile	/^  DESTDIR?=$/;"	m
+DESTDIR	libc/Makefile	/^DESTDIR?=$/;"	m
+EXEC_PREFIX	kernel/Makefile	/^  EXEC_PREFIX?=$(PREFIX)$/;"	m
+EXEC_PREFIX	libc/Makefile	/^EXEC_PREFIX?=$(PREFIX)$/;"	m
+FREEOBJS	libc/Makefile	/^FREEOBJS:=\\$/;"	m
+HOST	kernel/Makefile	/^HOST?=$(shell ..\/default-host.sh)$/;"	m
+HOST	libc/Makefile	/^HOST?=$(shell ..\/default-host.sh)$/;"	m
+HOSTARCH	kernel/Makefile	/^HOSTARCH:=$(shell ..\/target-triplet-to-arch.sh $(HOST))$/;"	m
+HOSTARCH	libc/Makefile	/^HOSTARCH:=$(shell ..\/target-triplet-to-arch.sh $(HOST))$/;"	m
+HOSTEDOBJS	libc/Makefile	/^HOSTEDOBJS:=\\$/;"	m
+INCLUDEDIR	kernel/Makefile	/^  INCLUDEDIR?=$(PREFIX)\/include$/;"	m
+INCLUDEDIR	libc/Makefile	/^INCLUDEDIR?=$(PREFIX)\/include$/;"	m
+LDFLAGS	kernel/Makefile	/^ LDFLAGS?=$/;"	m
+LDFLAGS	kernel/Makefile	/^LDFLAGS:=$(LDFLAGS) $(KERNEL_ARCH_LDFLAGS)$/;"	m
+LDFLAGS	kernel/Makefile	/^LDFLAGS:=$(LDFLAGS)$/;"	m
+LDFLAGS	libc/Makefile	/^LDFLAGS?=$/;"	m
+LIBDIR	libc/Makefile	/^LIBDIR?=$(EXEC_PREFIX)\/lib$/;"	m
+LIBK_CFLAGS	libc/Makefile	/^LIBK_CFLAGS:=$(CFLAGS) -ffreestanding -fbuiltin$/;"	m
+LIBK_CFLAGS	libc/Makefile	/^LIBK_CFLAGS:=$(LIBK_CFLAGS) $(KERNEL_ARCH_CFLAGS)$/;"	m
+LIBK_CPFLAGS	libc/Makefile	/^LIBK_CPFLAGS:=$(LIBK_CPPFLAGS) $(KERNEL_ARCH_CPPFLAGS)$/;"	m
+LIBK_CPPFLAGS	libc/Makefile	/^LIBK_CPPFLAGS:=$(CPPFLAGS) -D__is_michaelos_kernel$/;"	m
+LIBK_OBJS	libc/Makefile	/^LIBK_OBJS:=$(FREEOBJS:.o=.libk.o)$/;"	m
+LIBS	kernel/Makefile	/^ LIBS?=$/;"	m
+LIBS	kernel/Makefile	/^LIBS:=$(LIBS) $(KERNEL_ARCH_LIBS)$/;"	m
+LIBS	kernel/Makefile	/^LIBS:=$(LIBS) -nostdlib -lk -lgcc$/;"	m
+LIBS	libc/Makefile	/^LIBS?=$/;"	m
+MSG_PROT_MODE	bootloader/boot_sect.asm	/^MSG_PROT_MODE db "Successfully landed in 32-bit Protected Mode", 0$/;"	d
+MSG_REAL_MODE	bootloader/boot_sect.asm	/^MSG_REAL_MODE db "Started in 16-bit Real Mode", 0$/;"	d
+OBJS	kernel/Makefile	/^OBJS:=\\$/;"	m
+OBJS	libc/Makefile	/^OBJS:=\\$/;"	m
+OBJ_LINK_LIST	kernel/Makefile	/^OBJ_LINK_LIST:=\\$/;"	m
+PREFIX	kernel/Makefile	/^  PREFIX?=\/usr\/local$/;"	m
+PREFIX	libc/Makefile	/^PREFIX?=\/usr\/local$/;"	m
+VGA_HEIGHT	kernel/include/kernel/vga.h	/^static const size_t VGA_HEIGHT = 25;$/;"	v
+VGA_HEIGHT	sysroot/usr/include/kernel/vga.h	/^static const size_t VGA_HEIGHT = 25;$/;"	v
+VGA_MEMORY	kernel/include/kernel/vga.h	/^static uint16_t* const VGA_MEMORY = (uint16_t*) 0xB8000;$/;"	v
+VGA_MEMORY	sysroot/usr/include/kernel/vga.h	/^static uint16_t* const VGA_MEMORY = (uint16_t*) 0xB8000;$/;"	v
+VGA_WIDTH	kernel/include/kernel/vga.h	/^static const size_t VGA_WIDTH = 80;$/;"	v
+VGA_WIDTH	sysroot/usr/include/kernel/vga.h	/^static const size_t VGA_WIDTH = 80;$/;"	v
+VIDEO_MEMORY	bootloader/print_calls.asm	/^VIDEO_MEMORY equ 0xb8000$/;"	d
+WHITE_ON_BLACK	bootloader/print_calls.asm	/^WHITE_ON_BLACK equ 0x0f$/;"	d
+_KERNEL_TTY_H	kernel/include/kernel/.tty.h	2;"	d
+_KERNEL_TTY_H	kernel/include/kernel/tty.h	2;"	d
+_KERNEL_TTY_H	sysroot/usr/include/kernel/.tty.h	2;"	d
+_KERNEL_TTY_H	sysroot/usr/include/kernel/tty.h	2;"	d
+_KERNEL_VGA_H	kernel/include/kernel/vga.h	2;"	d
+_KERNEL_VGA_H	sysroot/usr/include/kernel/vga.h	2;"	d
+_STDIO_H	libc/include/stdio.h	2;"	d
+_STDIO_H	sysroot/usr/include/stdio.h	2;"	d
+_STDLIB_H	libc/include/stdlib.h	2;"	d
+_STDLIB_H	sysroot/usr/include/stdlib.h	2;"	d
+_STRING_H	libc/include/string.h	2;"	d
+_STRING_H	sysroot/usr/include/string.h	2;"	d
+_SYS_CDEFS_H	libc/include/sys/cdefs.h	2;"	d
+_SYS_CDEFS_H	sysroot/usr/include/sys/cdefs.h	2;"	d
+__michaelos_libc	libc/include/sys/cdefs.h	4;"	d
+__michaelos_libc	sysroot/usr/include/sys/cdefs.h	4;"	d
+_fini	kernel/arch/i386/crti.S	/^_fini:$/;"	l
+_init	kernel/arch/i386/crti.S	/^_init:$/;"	l
+_start	kernel/arch/i386/boot.S	/^_start:$/;"	l
+abort	libc/stdlib/abort.cpp	/^void abort(void)$/;"	f
+call	bootloader/boot_sect.asm	/^call print_string$/;"	l
+call	bootloader/boot_sect.asm	/^call switch_to_pm   ; Note that we never return from here.$/;"	l
+clear_screen	kernel/arch/i386/tty.cpp	/^void clear_screen()$/;"	f
+db	bootloader/boot_sect.asm	/^db 55h, 0AAh$/;"	l
+gdt_code	bootloader/gdt.asm	/^gdt_code:       ; the code segment descriptor$/;"	l
+gdt_data	bootloader/gdt.asm	/^gdt_data:       ; the data segment descriptor$/;"	l
+gdt_descriptor	bootloader/gdt.asm	/^gdt_descriptor:$/;"	l
+gdt_end	bootloader/gdt.asm	/^gdt_end:            ; The reason for putting a label at the end of the$/;"	l
+gdt_null	bootloader/gdt.asm	/^gdt_null:       ; the mandatory null descriptor$/;"	l
+gdt_start	bootloader/gdt.asm	/^gdt_start:$/;"	l
+goToNextLine	kernel/arch/i386/tty.cpp	/^void goToNextLine()$/;"	f
+init_pm	bootloader/pm_switch.asm	/^init_pm:$/;"	l
+itoa	libc/stdlib/itoa.cpp	/^char* itoa(int val, int base)$/;"	f
+jmp	bootloader/pm_switch.asm	/^jmp CODE_SEG:init_pm    ; Make a far jump (i.e. to a new segment) to our 32-bit$/;"	l
+kernel_early	kernel/kernel/kernel.cpp	/^void kernel_early(void)$/;"	f
+kernel_main	kernel/kernel/kernel.cpp	/^void kernel_main(void)$/;"	f
+lgdt	bootloader/pm_switch.asm	/^lgdt [gdt_descriptor]   ; Load our global descriptor table, which defines$/;"	l
+make_color	kernel/include/kernel/vga.h	/^static inline uint8_t make_color(enum vga_color fg, enum vga_color bg)$/;"	f
+make_color	sysroot/usr/include/kernel/vga.h	/^static inline uint8_t make_color(enum vga_color fg, enum vga_color bg)$/;"	f
+make_vgaentry	kernel/include/kernel/vga.h	/^static inline uint16_t make_vgaentry(char c, uint8_t color)$/;"	f
+make_vgaentry	sysroot/usr/include/kernel/vga.h	/^static inline uint16_t make_vgaentry(char c, uint8_t color)$/;"	f
+memcmp	libc/string/memcmp.cpp	/^int memcmp(const void* aptr, const void* bptr, size_t size)$/;"	f
+memcpy	libc/string/memcpy.cpp	/^void* memcpy(void* __restrict__ dstptr, const void* __restrict__ srcptr, size_t size)$/;"	f
+memmove	libc/string/memmove.cpp	/^void* memmove(void* dstptr, const void* srcptr, size_t size)$/;"	f
+memset	libc/string/memset.cpp	/^void* memset(void* bufptr, int value, size_t size)$/;"	f
+mov	bootloader/boot_sect.asm	/^mov bp, 0x9000      ; Set the stack$/;"	l
+mov	bootloader/boot_sect.asm	/^mov bx, MSG_REAL_MODE$/;"	l
+mov	bootloader/boot_sect.asm	/^mov sp, bp$/;"	l
+mov	bootloader/pm_switch.asm	/^mov cr0, eax$/;"	l
+mov	bootloader/pm_switch.asm	/^mov eax, cr0            ; To make the switch to protected mode, we set$/;"	l
+or	bootloader/pm_switch.asm	/^or eax, 0x1             ; the first bit of CR0, a control register$/;"	l
+print	libc/stdio/printf.cpp	/^static void print(const char* data, size_t data_length)$/;"	f	file:
+print_string	bootloader/print_calls.asm	/^print_string:$/;"	l
+print_string_pm	bootloader/print_calls.asm	/^print_string_pm :$/;"	l
+printf	libc/stdio/printf.cpp	/^int printf(const char* __restrict__ format, ...)$/;"	f
+putchar	libc/stdio/putchar.cpp	/^int putchar(int ic)$/;"	f
+puts	libc/stdio/puts.cpp	/^int puts(const char* string)$/;"	f
+stack_bottom	kernel/arch/i386/boot.S	/^stack_bottom:$/;"	l
+stack_top	kernel/arch/i386/boot.S	/^stack_top:$/;"	l
+strlen	libc/string/strlen.cpp	/^size_t strlen(const char* string)$/;"	f
+switch_to_pm	bootloader/pm_switch.asm	/^switch_to_pm:$/;"	l
+terminal_buffer	kernel/arch/i386/tty.cpp	/^uint16_t* terminal_buffer;$/;"	v
+terminal_color	kernel/arch/i386/tty.cpp	/^uint8_t terminal_color;$/;"	v
+terminal_column	kernel/arch/i386/tty.cpp	/^size_t terminal_column;$/;"	v
+terminal_initialize	kernel/arch/i386/tty.cpp	/^void terminal_initialize(void)$/;"	f
+terminal_putchar	kernel/arch/i386/tty.cpp	/^void terminal_putchar(char c)$/;"	f
+terminal_putentryat	kernel/arch/i386/tty.cpp	/^void terminal_putentryat(char c, uint8_t color, size_t x, size_t y)$/;"	f
+terminal_row	kernel/arch/i386/tty.cpp	/^size_t terminal_row;$/;"	v
+terminal_setcolor	kernel/arch/i386/tty.cpp	/^void terminal_setcolor(uint8_t color)$/;"	f
+terminal_write	kernel/arch/i386/tty.cpp	/^void terminal_write(const char* data, size_t size)$/;"	f
+terminal_writestring	kernel/arch/i386/tty.cpp	/^void terminal_writestring(const char* data)$/;"	f
+times	bootloader/boot_sect.asm	/^times 510 -( $ - $$ ) db 0$/;"	l
+vga_color	kernel/include/kernel/vga.h	/^enum vga_color$/;"	g
+vga_color	sysroot/usr/include/kernel/vga.h	/^enum vga_color$/;"	g
