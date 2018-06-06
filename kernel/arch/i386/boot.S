@@ -1,4 +1,4 @@
-# Declare constants used for creating a multiboot header.
+# Declare constants for the multiboot header.
 .set ALIGN,    1<<0             # align loaded modules on page boundaries
 .set MEMINFO,  1<<1             # provide memory map
 .set FLAGS,    ALIGN | MEMINFO  # this is the Multiboot 'flag' field
@@ -13,7 +13,8 @@
 .long CHECKSUM
 
 # Reserve a stack for the initial thread.
-.section .bootstrap_stack, "aw", @nobits
+.section .bss
+.align 16
 stack_bottom:
 .skip 16384 # 16 KiB
 stack_top:
@@ -23,20 +24,16 @@ stack_top:
 .global _start
 .type _start, @function
 _start:
-    movl $stack_top, %esp
+	movl $stack_top, %esp
 
-    # Initialize the core kernel before running the global constructors.
-    call kernel_early
+	# Call the global constructors.
+	call _init
 
-    # Call the global constructors.
-    call _init
+	# Transfer control to the main kernel.
+	call kernel_main
 
-    # Transfer control to the main kernel.
-    call kernel_main
-
-    # Hang if kernel_main unexpectedly returns.
-    cli
-    hlt
-.Lhang:
-    jmp .Lhang
+	# Hang if kernel_main unexpectedly returns.
+	cli
+1:	hlt
+	jmp 1b
 .size _start, . - _start
